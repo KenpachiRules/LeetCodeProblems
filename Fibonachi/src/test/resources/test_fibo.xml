@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestFiboSuite" verbose="1">
+	<test name="TestFiboLeetCode">
+		<classes>
+			<class name="com.hari.coding.leet.test.fibo.TestFib" />
+		</classes>
+	</test>
+</suite>
