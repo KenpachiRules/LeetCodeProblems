@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestClosestPalindrome" verbose="1">
+	<test name="TestClosestPalindrome">
+		<classes>
+			<class name="com.hari.coding.leet.closest.palindrome.TestClosestPalindrome" />
+		</classes>
+	</test>
+</suite>
