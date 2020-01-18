@@ -1,0 +1,19 @@
+apply plugin: 'scala'
+apply plugin: 'eclipse'
+
+repositories{
+	mavenCentral()
+}
+
+dependencies{
+	implementation 'org.scala-lang:scala-library:2.11.11'
+	testImplementation 'org.testng:testng:6.14.3'
+}
+
+test{
+    useTestNG() {
+		useDefaultListeners = 'true'
+		suites 'src/test/resources/test_suite.xml'
+	}
+	
+}

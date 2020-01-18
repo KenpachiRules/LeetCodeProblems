@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestDivideTwoIntegers" verbose="1">
+	<test name="TestDivideTwoIntegers">
+		<classes>
+			<class name="com.hari.leet.problems.dividetwointegers.test.TestDivideTwoIntegers" />
+		</classes>
+	</test>
+</suite>
